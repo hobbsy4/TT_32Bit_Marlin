@@ -10,7 +10,7 @@ PID heating is used for hot end and bed. The bed heating works well with the sto
 Your PID settings will be different. 
 You will need to define your hot end (1 for stock, I believe) in line 442 - the description for all hot ends is from line 350.
 
-I'm using a BMG extruder and it is geared. You will need to adjust the extrusion (line 753) to match your extruder. You should also calibrate it. 
+I'm using a BMG extruder and it is geared. You will need to adjust the extrusion (line 753) to match your extruder. You should also calibrate it. 100 was the stock value. 
 
 The extruder acceleration for the extruder (line 775) is set to 10000 but you should reduce this to a lower value (perhaps 2500) to begin. 
 
