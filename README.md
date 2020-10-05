@@ -2,6 +2,8 @@
 
 This works well with my 32 bit BTT e3 mini 2.0 with a Standard Tevo Tarantula. 
 
+The printer is named after Dad's dog. You can change your name in line 135. 
+
 A few points: 
 
 
