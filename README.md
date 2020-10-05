@@ -12,7 +12,7 @@ You will need to define your hot end (1 for stock, I believe) in line 442 - the 
 
 I'm using a BMG extruder and it is geared. You will need to adjust the extrusion (line 753) to match your extruder. You should also calibrate it. 100 was the stock value. 
 
-The extruder acceleration for the extruder (line 775) is set to 10000 but you should reduce this to a lower value (perhaps 2500) to begin. 
+The acceleration for the extruder (line 775) is set to 10000 but you should reduce this to a lower value (perhaps 2500) to begin. My other acceleration values seem OK with my set up but I've just gone to linear rails. Reduce or increase as required. 
 
 Skew correction is enabled for my printer until I print all of Thingirobs brackets. // (comment out) the skew or adjust to suit your needs in lines 1449, 1451, 1461, 1473) (commenting 1449 alone should disable it adequately)
 
