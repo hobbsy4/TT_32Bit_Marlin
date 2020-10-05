@@ -20,6 +20,8 @@ Skew correction is enabled for my printer until I print all of Thingirobs bracke
 
 Raising the z after homing isn't currently enabled but I'm planning on doing this next build.
 
+Don't forget to reset your eeprom after flashing, or else bang-bang etc that may have been enabled in your old firmware will cause problems with heating, steps per mm, etc. 
+
 This is working well with my printer but your mileage may vary. I take no responsibility nor give warranty for the provided files. 
 
 Cheers
