@@ -29,6 +29,8 @@ Skew correction is enabled for my printer until I print all of Thingirobs bracke
 
 Raising the z after homing isn't currently enabled but I'm planning on doing this next build. Also, it annoys me before beginning a print that it goes up and down too many times at the 0,0 position and can accumulate oozed filament, but this is also to be fixed. 
 
+I use VS Code with the PlatormIO IDE, C/C++ and Auto Build Marlin plugins. Instructions are available via the googles for how to install. It is built for the STM32F103RC_btt_512K processor type but this was detected automatically with with above plugins. 
+
 Don't forget to reset your eeprom after flashing, or else bang-bang etc that may have been enabled in your old firmware will cause problems with heating, steps per mm, etc. 
 
 This is working well with my printer but your mileage may vary. I take no responsibility nor give warranty for the provided files. 
